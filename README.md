@@ -60,6 +60,7 @@
 
 示例脚本 (`popup.txt`)：
 
+```txt
 DELAY 1000
 WINDOWS r
 DELAY 500
@@ -68,6 +69,7 @@ ENTER
 DELAY 1000
 STRING Hello from BadUSB!
 ENTER
+text
 
 
 ### 注意事项
@@ -142,6 +144,7 @@ One command per line. Supported:
 
 Example script (`popup.txt`):
 
+```txt
 DELAY 1000
 WINDOWS r
 DELAY 500
@@ -150,6 +153,7 @@ ENTER
 DELAY 1000
 STRING Hello from BadUSB!
 ENTER
+text
 
 ### Important Notes
 - USB mass storage is disabled by default (to prevent Windows explorer from freezing). To modify the code, hold the **BOOTSEL** button while connecting the Pico to USB – this enters safe mode and the `CIRCUITPY` drive will reappear.
