@@ -25,7 +25,6 @@
 
 ### 支持作者
 <img src="https://raw.githubusercontent.com/xzrkali/Pico-BadUSB/main/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98.png" width="200" alt="微信赞赏码" />  
-*（如果图片无法显示，请检查仓库中是否存在该文件）*
 
 ### 硬件接线
 | 组件         | Pico 引脚       |
@@ -60,6 +59,7 @@
 - 单键：`A`, `B`, `1`, `F1` 等
 
 示例脚本 (`popup.txt`)：
+
 DELAY 1000
 WINDOWS r
 DELAY 500
@@ -107,7 +107,6 @@ If you find this project helpful, you can buy me a coffee ☕️ (WeChat QR code
 
 ### Support the Author
 <img src="https://raw.githubusercontent.com/xzrkali/Pico-BadUSB/main/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98.png" width="200" alt="WeChat Donation QR Code" />  
-*(If the image does not load, please check that the file exists in the repository.)*
 
 ### Hardware Wiring
 | Component      | Pico Pin           |
@@ -143,6 +142,14 @@ One command per line. Supported:
 
 Example script (`popup.txt`):
 
+DELAY 1000
+WINDOWS r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 1000
+STRING Hello from BadUSB!
+ENTER
 ### Important Notes
 - USB mass storage is disabled by default (to prevent Windows explorer from freezing). To modify the code, hold the **BOOTSEL** button while connecting the Pico to USB – this enters safe mode and the `CIRCUITPY` drive will reappear.
 - SD card quality may affect stability; a 4‑32 GB Class 10 card is recommended.
