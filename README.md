@@ -80,8 +80,9 @@ ENTER
 5. 重新插拔 Pico，OLED 菜单出现后即可使用。
 
 ### 注意事项
-- 默认禁用 USB 存储（避免电脑资源管理器卡顿）。如需修改代码，请按住 Pico 上的 **BOOTSEL** 键再插入 USB，此时会进入安全模式，`CIRCUITPY` 盘会重新出现。
+- 默认禁用 USB 存储（避免电脑资源管理器卡顿）。如需修改代码，请按住 Pico 上的 **BOOTSEL** 键再插入 USB，此时会进入安全模式，`CIRCUITPY` 盘会重新出现。（其实不会，只会出现安全盘不会出现CIRCUITPY，我写完了才发现，抱歉）
 - SD 卡质量可能影响稳定性，推荐使用 4-32GB 的 Class 10 卡。
+- 如果要重新使用CircuitPython请用官方的flash_nuke.uf2并重新刷入CircuitPython固件否则除了安全盘，永远不会出现任何盘
 
 ### 项目链接
 GitHub: [https://github.com/xzrkali/Pico-BadUSB](https://github.com/xzrkali/Pico-BadUSB)  
@@ -171,8 +172,9 @@ ENTER
 5. Reconnect the Pico, and once the OLED menu appears, it is ready to use.
 
 ### Important Notes
-- USB mass storage is disabled by default (to prevent Windows explorer from freezing). To modify the code, hold the **BOOTSEL** button while connecting the Pico to USB – this enters safe mode and the `CIRCUITPY` drive will reappear.
+- USB mass storage is disabled by default (to prevent Windows explorer from freezing). To modify the code, hold the **BOOTSEL** button while connecting the Pico to USB – this enters safe mode and the `CIRCUITPY` drive will reappear.(Actually, it won't, only the security disk will appear, CIRCUITPY won't. I realized this after finishing writing, sorry)
 - SD card quality may affect stability; a 4‑32 GB Class 10 card is recommended.
+- If you want to reuse CircuitPython, please use the official flash_nuke.uf2 and re-flash the CircuitPython firmware, otherwise, except for the safety drive, no other drives will ever appear.
 
 ### Project Link
 GitHub: [https://github.com/xzrkali/Pico-BadUSB](https://github.com/xzrkali/Pico-BadUSB)  
