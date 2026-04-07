@@ -60,7 +60,7 @@
 
 示例脚本 (`popup.txt`)：
 
-'''txt
+```txt
 DELAY 1000
 WINDOWS r
 DELAY 500
@@ -69,7 +69,7 @@ ENTER
 DELAY 1000
 STRING Hello from BadUSB!
 ENTER
-'''txt
+```txt
 
 
 ### 注意事项
