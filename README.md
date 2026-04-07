@@ -69,7 +69,7 @@ ENTER
 DELAY 1000
 STRING Hello from BadUSB!
 ENTER
-txt'''
+'''txt
 
 
 ### 注意事项
