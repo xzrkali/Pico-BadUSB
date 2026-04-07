@@ -71,6 +71,13 @@ STRING Hello from BadUSB!
 ENTER
 ```
 
+## 快速安装 (Windows)
+
+1. 下载本项目的 Release 压缩包，解压到任意文件夹。
+2. 将 Pico 插入电脑（已刷好 CircuitPython 固件）。
+3. 双击运行 `install.bat`，等待提示完成。
+4. 安全弹出 Pico，插入 SD 卡（格式 FAT32，根目录创建 `payloads` 文件夹）。
+5. 重新插拔 Pico，OLED 菜单出现后即可使用。
 
 ### 注意事项
 - 默认禁用 USB 存储（避免电脑资源管理器卡顿）。如需修改代码，请按住 Pico 上的 **BOOTSEL** 键再插入 USB，此时会进入安全模式，`CIRCUITPY` 盘会重新出现。
@@ -154,6 +161,14 @@ DELAY 1000
 STRING Hello from BadUSB!
 ENTER
 ```
+
+## Quick Installation (Windows)
+
+1. Download the release zip of this project and extract it to any folder.
+2. Plug the Pico into your computer (CircuitPython firmware should already be installed).
+3. Double-click `install.bat` and wait for the prompt indicating completion.
+4. Safely eject the Pico, insert the SD card (formatted as FAT32, create a `payloads` folder in the root directory).
+5. Reconnect the Pico, and once the OLED menu appears, it is ready to use.
 
 ### Important Notes
 - USB mass storage is disabled by default (to prevent Windows explorer from freezing). To modify the code, hold the **BOOTSEL** button while connecting the Pico to USB – this enters safe mode and the `CIRCUITPY` drive will reappear.
