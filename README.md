@@ -61,12 +61,19 @@
 示例脚本 (`popup.txt`)：
 
 DELAY 1000
+
 WINDOWS r
+
 DELAY 500
+
 STRING notepad
+
 ENTER
+
 DELAY 1000
+
 STRING Hello from BadUSB!
+
 ENTER
 
 
