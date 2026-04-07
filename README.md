@@ -61,19 +61,12 @@
 示例脚本 (`popup.txt`)：
 
 DELAY 1000
-
 WINDOWS r
-
 DELAY 500
-
 STRING notepad
-
 ENTER
-
 DELAY 1000
-
 STRING Hello from BadUSB!
-
 ENTER
 
 
@@ -157,6 +150,7 @@ ENTER
 DELAY 1000
 STRING Hello from BadUSB!
 ENTER
+
 ### Important Notes
 - USB mass storage is disabled by default (to prevent Windows explorer from freezing). To modify the code, hold the **BOOTSEL** button while connecting the Pico to USB – this enters safe mode and the `CIRCUITPY` drive will reappear.
 - SD card quality may affect stability; a 4‑32 GB Class 10 card is recommended.
